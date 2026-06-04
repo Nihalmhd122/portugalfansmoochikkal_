@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kerala Disaster Alert</title>
+
+<style>
+body{
+    font-family:Arial,sans-serif;
+    background:#f4f4f4;
+    margin:0;
+}
+header{
+    background:#d32f2f;
+    color:white;
+    padding:15px;
+    text-align:center;
+}
+.card{
+    background:white;
+    margin:15px;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.2);
+}
+.alert{
+    background:#ffeb3b;
+    padding:10px;
+    border-radius:8px;
+}
+.red{
+    background:#f44336;
+    color:white;
+}
+button{
+    padding:10px 15px;
+    border:none;
+    background:#1976d2;
+    color:white;
+    border-radius:5px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🌧 Kerala Disaster Alert</h1>
+<p>Weather • Flood • Water Level • Emergency Help</p>
+</header>
+
+<div class="card">
+<h2>⚠ Current Alert</h2>
+<div class="alert">
+No Active Alert
+</div>
+</div>
+
+<div class="card">
+<h2>🌦 Weather Update</h2>
+<p>Temperature: -- °C</p>
+<p>Rain Chance: -- %</p>
+</div>
+
+<div class="card">
+<h2>🌊 River / Dam Water Level</h2>
+<p>Current Level: -- m</p>
+<p>Status: Normal</p>
+</div>
+
+<div class="card">
+<h2>📞 Emergency Numbers</h2>
+<p>Disaster Management: 1077</p>
+<p>Police: 100</p>
+<p>Fire Force: 101</p>
+<p>Ambulance: 108</p>
+</div>
+
+<div class="card">
+<button onclick="alert('Location detected')">
+📍 Share My Location
+</button>
+</div>
+
+</body>
+</html>
